@@ -1,0 +1,14 @@
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\recusion\bin\Debug\netcoreapp3.1\recusion.exe
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\recusion\bin\Debug\netcoreapp3.1\recusion.deps.json
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\recusion\bin\Debug\netcoreapp3.1\recusion.runtimeconfig.json
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\recusion\bin\Debug\netcoreapp3.1\recusion.runtimeconfig.dev.json
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\recusion\bin\Debug\netcoreapp3.1\recusion.dll
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\recusion\bin\Debug\netcoreapp3.1\recusion.pdb
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\recusion\obj\Debug\netcoreapp3.1\recusion.csproj.AssemblyReference.cache
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\recusion\obj\Debug\netcoreapp3.1\recusion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\recusion\obj\Debug\netcoreapp3.1\recusion.AssemblyInfoInputs.cache
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\recusion\obj\Debug\netcoreapp3.1\recusion.AssemblyInfo.cs
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\recusion\obj\Debug\netcoreapp3.1\recusion.csproj.CoreCompileInputs.cache
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\recusion\obj\Debug\netcoreapp3.1\recusion.dll
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\recusion\obj\Debug\netcoreapp3.1\recusion.pdb
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\recusion\obj\Debug\netcoreapp3.1\recusion.genruntimeconfig.cache

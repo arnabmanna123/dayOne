@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\arnab\\OneDrive\\Documents\\100DaysCodeChallange\\recusion\\recusion\\recusion.csproj",
+      "projectUniqueName": "C:\\Users\\arnab\\OneDrive\\Documents\\codeChallange\\recusion\\recusion\\recusion.csproj",
       "projectName": "recusion",
-      "projectPath": "C:\\Users\\arnab\\OneDrive\\Documents\\100DaysCodeChallange\\recusion\\recusion\\recusion.csproj",
+      "projectPath": "C:\\Users\\arnab\\OneDrive\\Documents\\codeChallange\\recusion\\recusion\\recusion.csproj",
       "packagesPath": "C:\\Users\\arnab\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\arnab\\OneDrive\\Documents\\100DaysCodeChallange\\recusion\\recusion\\obj\\",
+      "outputPath": "C:\\Users\\arnab\\OneDrive\\Documents\\codeChallange\\recusion\\recusion\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\arnab\\AppData\\Roaming\\NuGet\\NuGet.Config",
