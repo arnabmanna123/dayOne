@@ -1,0 +1,14 @@
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\Sort\bin\Debug\netcoreapp3.1\Sort.exe
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\Sort\bin\Debug\netcoreapp3.1\Sort.deps.json
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\Sort\bin\Debug\netcoreapp3.1\Sort.runtimeconfig.json
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\Sort\bin\Debug\netcoreapp3.1\Sort.runtimeconfig.dev.json
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\Sort\bin\Debug\netcoreapp3.1\Sort.dll
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\Sort\bin\Debug\netcoreapp3.1\Sort.pdb
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\Sort\obj\Debug\netcoreapp3.1\Sort.csproj.AssemblyReference.cache
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\Sort\obj\Debug\netcoreapp3.1\Sort.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\Sort\obj\Debug\netcoreapp3.1\Sort.AssemblyInfoInputs.cache
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\Sort\obj\Debug\netcoreapp3.1\Sort.AssemblyInfo.cs
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\Sort\obj\Debug\netcoreapp3.1\Sort.csproj.CoreCompileInputs.cache
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\Sort\obj\Debug\netcoreapp3.1\Sort.dll
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\Sort\obj\Debug\netcoreapp3.1\Sort.pdb
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\Sort\obj\Debug\netcoreapp3.1\Sort.genruntimeconfig.cache
