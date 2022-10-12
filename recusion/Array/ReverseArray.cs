@@ -8,6 +8,21 @@ namespace Array
    public static class ReverseArray
     {
 
+        public static List<int> Reverse(List<int> input)
+        {
+            int i = 0;
+            int j = input.Count-1;
+
+            while (i <= j)
+            {
+                int temp = input[i];
+                input[i] = input[j];
+                input[j] = temp;
+                i++;
+                j--;
+            }
+            return input;
+        }
         public static List<string> ReverseArrayMethod(List<string> input , int rotate)
         {
 

@@ -7,7 +7,19 @@ namespace Array
     {
         static void Main(string[] args)
         {
-             FIrstMissingPositiveNumber.MethodToFindKMissingNumber(new List<int> { -3, -2, 1, 2, 4, 10, 11, 3, 5 },3);
+            TripletsWithSumSmallerYhanTargetSum.Method(new List<int> { 1, 2, -3, 4, -2, -1 }, 1);
+            cccQuadrupleForGivenSum.Method(new List<int> { 1, 2, -3, 4, -2, -1, 3 }, 3);
+             FindAllTripletsForGivenSum.Method(new List<int> { 1, 2, -3, 4, -2, -1 }, 1);
+            var result4 = SqureOfSortedArrayOfPosNeg.Method(new List<int> { -6, -2, -1, 3, 5 });
+            var result3 = RemoveAllDuplicateValueFromArray.Method(new int[] { 1, 4, 4, 5, 6, 7, 7, 8 });
+            var result2 = SortArrayAccordingToTheFreQuency.Method(new List<int> { 10, 10, 7, 7, 7, 8, 8, 9, 9, 11, 2, 5 });
+            var result1 = ShuffleTheArrayNumber.Method(new List<int> { 3, 7, 8, 9, 10, 11 });
+            var sort = CyclicSort.Method(new List<int> { 6,5,4,3,2,1 });
+            var longestOneArray = LongestSubArrayWithReplaceKZero.Length(new List<int> {0,1,0,1,0,1,1,0,1,0,1}, 1);
+            var reverseArr = ReverseArray.Reverse(new List<int> { 1, 2, 3, 4 });
+            var reverseArrTwo = ReverseArray.Reverse(new List<int> { 1, 2, 3, 4,5 });
+
+            FIrstMissingPositiveNumber.MethodToFindKMissingNumber(new List<int> { -3, -2, 1, 2, 4, 10, 11, 3, 5 },3);
 
             var FIrstMissingPositiveNumberAnswer = FIrstMissingPositiveNumber.Method(new List<int> { -3, -2, 1, 2, 4, 10, 11,3,5 });
             var oddEvenSegrate = SagretrateEvenOdd.Method(new List<int> { 1, 2, 3, 5, 6, 8, 9, 11, 15 });
