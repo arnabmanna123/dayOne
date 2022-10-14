@@ -586,54 +586,58 @@ namespace recusion
 
         static void FloodFill(int[][] maze, int row, int col, string psf, bool[][] visited)//visited to check theone path cant be use twice
         {
-            if (row < 0 || col < 0 || row == maze.Length || col == maze[0].Length || maze[row][col] == 1 || visited[row][col]==true)// maze[row][col]==1 obstrcle, should be the end as the if the row or col is negetive which will throw exception
+            if (row < 0 || col < 0 || row == maze.Length || col == maze[0].Length || maze[row][col] == 1 || visited[row][col] == true)// maze[row][col]==1 obstrcle, should be the end as the if the row or col is negetive which will throw exception
             {
                 return;
             }
-            if(row==maze.Length-1 && col == maze[0].Length)
+            if (row == maze.Length - 1 && col == maze[0].Length)
             {
                 Console.WriteLine(psf);
                 return;
             }
             visited[row][col] = true;
             FloodFill(maze, row - 1, col, psf + "t", visited);
-            FloodFill(maze, row, col-1, psf + "l", visited);
+            FloodFill(maze, row, col - 1, psf + "l", visited);
             FloodFill(maze, row + 1, col, psf + "d", visited);
-            FloodFill(maze, row, col+1, psf + "r", visited);
+            FloodFill(maze, row, col + 1, psf + "r", visited);
             visited[row][col] = false; //if any path can use for another way for that reason
-           
+
         }
 
 
-        static void TargetSumSubsets(List<int> input , int idx  , string set , int sumOfSet, int target)
+        static void TargetSumSubsets(List<int> input, int idx, string set, int sumOfSet, int target)
         {
             if (idx == input.Count)
             {
                 if (sumOfSet == target)
                 {
-                    Console.WriteLine(set+".");
+                    Console.WriteLine(set + ".");
                 }
                 return;
             }
             TargetSumSubsets(input, idx + 1, set + input[idx].ToString() + " , ", sumOfSet + input[idx], target);
-            TargetSumSubsets(input, idx + 1, set , sumOfSet , target);
+            TargetSumSubsets(input, idx + 1, set, sumOfSet, target);
 
         }
 
-        //static void PrintNQueen(int[][] chess, string printSoFar , int row)// imcomplete
-        //{
-        //    if()
-        //    for(int col=0; col<chess.Length; col++)
-        //    {
-        //        chess[row][col] = 1;
-        //        PrintNQueen(chess, printSoFar + row.ToString() + "-" + col.ToString() + ",", row+1);
-        //        chess[row][col] = 0;//its important to remove them too
-        //    }
-        //}
+        static void PrintNQueen(int[][] chess, string printSoFar, int row)// imcomplete
+        {
+            if (row == chess.GetLength(0))
+            {
+                Console.WriteLine(printSoFar);
+                return;
+            }
+                for (int col = 0; col < chess.Length; col++)
+                {
+                    chess[row][col] = 1;
+                    PrintNQueen(chess, printSoFar + row.ToString() + "-" + col.ToString() + ",", row + 1);
+                    chess[row][col] = 0;//its important to remove them too
+                }
+        }
 
         static void KnightsTour(int[][] chess, int r, int c, int move)
         {
-            if (r < 0 || c < 0 || r >= chess.Length || c >= chess[0].Length || chess[r][c]!=0)
+            if (r < 0 || c < 0 || r >= chess.Length || c >= chess[0].Length || chess[r][c] != 0)
             {
                 return;
             }
@@ -647,13 +651,13 @@ namespace recusion
 
             chess[r][c] = move;
             KnightsTour(chess, r - 2, c + 1, move + 1);
-            KnightsTour(chess, r  -2, c - 1, move + 1);
-            KnightsTour(chess, r -1, c - 2, move + 1);
+            KnightsTour(chess, r - 2, c - 1, move + 1);
+            KnightsTour(chess, r - 1, c - 2, move + 1);
             KnightsTour(chess, r + 1, c - 2, move + 1);
             KnightsTour(chess, r + 2, c + 1, move + 1);
             KnightsTour(chess, r + 2, c - 1, move + 1);
-            KnightsTour(chess, r +1, c +2, move + 1);
-            KnightsTour(chess, r -1, c + 2, move + 1);
+            KnightsTour(chess, r + 1, c + 2, move + 1);
+            KnightsTour(chess, r - 1, c + 2, move + 1);
             chess[r][c] = 0;
         }
         static void Main(string[] args)

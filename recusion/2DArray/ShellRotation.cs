@@ -8,11 +8,12 @@ namespace _2DArray
     {
         public static List<List<int>> Method(List<List<int>> input, int shell, int rotate)
         {
-            List<int> oned = FillOnedFromShell(input, shell);
+            int[]  oned = FillOnedFromShell(input, shell);
 
-            Rotate(oned, rotate);
+           oned=  Rotate(oned, rotate);
 
             FillShellFromOned(input, shell, oned);
+            return input;
         }
 
         public static int[] FillOnedFromShell(List<List<int>>  input,int shell)
@@ -22,22 +23,89 @@ namespace _2DArray
             int maxRow = input.Count - 1 - minRow;
             int maxCol = input[0].Count - 1 - minCol;
             int length = maxRow * maxCol;
-            int[]
-            while (true)
+            int size = 2 * (maxRow - minRow +maxCol - minCol );
+            int[] newArr = new int[size];
+            int idx=0;
+            //lw
+            for (int i = minRow, j = minCol; i <= maxRow; i++)
             {
-                for()
+                newArr[idx] = input[i][j];
+                idx++;
             }
+           minCol++;
+            //bw
+            for (int i = maxCol, j = minCol; j <= maxCol; j++)
+            {
+                newArr[idx] = input[i][j];
+                idx++;
+            }
+            maxRow--;
+            //rw
+            for(int i = maxRow, j = maxCol; i >= minRow; i--)
+            {
+                newArr[idx] = input[i][j];
+                idx++;
+            }
+            //tw
+            maxCol--;
+            for (int i = minRow, j = maxCol; j >= minCol; j--)
+            {
+                newArr[idx] = input[i][j];
+                idx++;
+            }
+            return newArr;
         }
 
-        static void Rotate(List<int> input,int rotate)
+
+
+        public static void FillShellFromOned(List<List<int>> input, int shell,int[] newArr)
         {
-            int[] Result = new int[input.Count];
-            rotate = rotate % input.Count;
-            rotate = rotate < 0 ? rotate + input.Count: rotate;
-            for (int i=0; i< input.Count; i++)
+            int minRow = shell - 1;
+            int minCol = shell - 1;
+            int maxRow = input.Count - 1 - minRow;
+            int maxCol = input[0].Count - 1 - minCol;
+            int length = maxRow * maxCol;
+
+            int idx = 0;
+            //lw
+            for (int i = minRow, j = minCol; i <= maxRow; i++)
             {
-                Result[(i + rotate) % input.Count] = input[i];
+                input[i][j] = newArr[idx] ;
+                idx++;
             }
+            minCol++;
+            //bw
+            for (int i = maxCol, j = minCol; j <= maxCol; j++)
+            {
+                input[i][j] = newArr[idx];
+                idx++;
+            }
+            maxRow--;
+            //rw
+            for (int i = maxRow, j = maxCol; i >= minRow; i--)
+            {
+                input[i][j] = newArr[idx];
+                idx++;
+            }
+            //tw
+            maxCol--;
+            for (int i = maxRow, j = maxCol; j >= minCol; j--)
+            {
+                input[i][j] = newArr[idx];
+                idx++;
+            }
+
+        }
+        static int[] Rotate(int[] input,int rotate)
+        {
+            int[] Result = new int[input.Length];
+            rotate = rotate % input.Length;
+            rotate = rotate < 0 ? rotate + input.Length : rotate;
+            for (int i=0; i< input.Length; i++)
+            {
+                Result[(i + rotate) % input.Length] = input[i];
+            }
+            return Result;
         }
     }
 }
