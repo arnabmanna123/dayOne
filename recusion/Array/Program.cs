@@ -8,7 +8,7 @@ namespace Array
         static void Main(string[] args)
         {
             TripletsWithSumSmallerYhanTargetSum.Method(new List<int> { 1, 2, -3, 4, -2, -1 }, 1);
-            cccQuadrupleForGivenSum.Method(new List<int> { 1, 2, -3, 4, -2, -1, 3 }, 3);
+            QuadrupleForGivenSum.Method(new List<int> { 1, 2, -3, 4, -2, -1, 3 }, 3);
              FindAllTripletsForGivenSum.Method(new List<int> { 1, 2, -3, 4, -2, -1 }, 1);
             var result4 = SqureOfSortedArrayOfPosNeg.Method(new List<int> { -6, -2, -1, 3, 5 });
             var result3 = RemoveAllDuplicateValueFromArray.Method(new int[] { 1, 4, 4, 5, 6, 7, 7, 8 });

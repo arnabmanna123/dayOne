@@ -1,0 +1,14 @@
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\2DArray\bin\Debug\netcoreapp3.1\2DArray.exe
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\2DArray\bin\Debug\netcoreapp3.1\2DArray.deps.json
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\2DArray\bin\Debug\netcoreapp3.1\2DArray.runtimeconfig.json
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\2DArray\bin\Debug\netcoreapp3.1\2DArray.runtimeconfig.dev.json
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\2DArray\bin\Debug\netcoreapp3.1\2DArray.dll
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\2DArray\bin\Debug\netcoreapp3.1\2DArray.pdb
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\2DArray\obj\Debug\netcoreapp3.1\2DArray.csproj.AssemblyReference.cache
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\2DArray\obj\Debug\netcoreapp3.1\2DArray.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\2DArray\obj\Debug\netcoreapp3.1\2DArray.AssemblyInfoInputs.cache
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\2DArray\obj\Debug\netcoreapp3.1\2DArray.AssemblyInfo.cs
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\2DArray\obj\Debug\netcoreapp3.1\2DArray.csproj.CoreCompileInputs.cache
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\2DArray\obj\Debug\netcoreapp3.1\2DArray.dll
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\2DArray\obj\Debug\netcoreapp3.1\2DArray.pdb
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\2DArray\obj\Debug\netcoreapp3.1\2DArray.genruntimeconfig.cache
