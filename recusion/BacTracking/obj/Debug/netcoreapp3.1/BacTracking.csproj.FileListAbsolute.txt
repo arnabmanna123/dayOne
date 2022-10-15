@@ -1,0 +1,14 @@
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\BacTracking\bin\Debug\netcoreapp3.1\BacTracking.exe
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\BacTracking\bin\Debug\netcoreapp3.1\BacTracking.deps.json
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\BacTracking\bin\Debug\netcoreapp3.1\BacTracking.runtimeconfig.json
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\BacTracking\bin\Debug\netcoreapp3.1\BacTracking.runtimeconfig.dev.json
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\BacTracking\bin\Debug\netcoreapp3.1\BacTracking.dll
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\BacTracking\bin\Debug\netcoreapp3.1\BacTracking.pdb
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\BacTracking\obj\Debug\netcoreapp3.1\BacTracking.csproj.AssemblyReference.cache
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\BacTracking\obj\Debug\netcoreapp3.1\BacTracking.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\BacTracking\obj\Debug\netcoreapp3.1\BacTracking.AssemblyInfoInputs.cache
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\BacTracking\obj\Debug\netcoreapp3.1\BacTracking.AssemblyInfo.cs
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\BacTracking\obj\Debug\netcoreapp3.1\BacTracking.csproj.CoreCompileInputs.cache
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\BacTracking\obj\Debug\netcoreapp3.1\BacTracking.dll
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\BacTracking\obj\Debug\netcoreapp3.1\BacTracking.pdb
+C:\Users\arnab\OneDrive\Documents\codeChallange\recusion\BacTracking\obj\Debug\netcoreapp3.1\BacTracking.genruntimeconfig.cache

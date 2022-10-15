@@ -14,8 +14,8 @@ namespace _2DArray
 
             for(int i=0; i< input.Count; i++)
             {
-                int r = i / input.Count;
-                int c = i % input.Count;
+                int r = i / col;
+                int c = i % col;
                 result[r, c] = input[i];
             }
 

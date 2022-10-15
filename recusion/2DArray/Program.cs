@@ -7,7 +7,7 @@ namespace _2DArray
     {
         static void Main(string[] args)
         {
-            var resultThree = OneDArrayTo2DArray.Method(new List<int> { 1, 2, 3, 4, 5, 6 }, 2, 3);
+            var resultThree = OneDArrayTo2DArray.Method(new List<int> { 1, 2, 3, 4, 5, 6,7,8 }, 4,2);
             NQueeenProblem.printNQueens(new int[4,4],"", 0);
           BinarySearch.Method(new List<List<int>> { new List<int> { 00, 01, 02, 03, 04 }, new List<int> { 10, 11, 12, 13, 14 }, new List<int> { 20, 21, 22, 23, 24 }, new List<int> { 30, 31, 32, 33, 34 }, new List<int> { 40, 41, 42, 43, 44 } }, 45);
             SaddlePoint.Method(new List<List<int>> { new List<int> { 00, 01, 02, 03, 04 }, new List<int> { 10, 11, 12, 13, 14 }, new List<int> { 20, 21, 22, 23, 24 }, new List<int> { 30, 31, 32, 33, 34 }, new List<int> { 40, 41, 42, 43, 44 } });
