@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Array", "Array\Array.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2DArray", "2DArray\2DArray.csproj", "{41208479-3770-4A45-9355-A87DCA78C27F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BacTracking", "BacTracking\BacTracking.csproj", "{0E3903AE-C8B6-49F8-9923-CE84633EC0AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BacTracking", "BacTracking\BacTracking.csproj", "{0E3903AE-C8B6-49F8-9923-CE84633EC0AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackQueue", "StackQueue\StackQueue.csproj", "{0893A49F-4116-4271-8C65-A92AC1CE6B5E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{0E3903AE-C8B6-49F8-9923-CE84633EC0AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E3903AE-C8B6-49F8-9923-CE84633EC0AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E3903AE-C8B6-49F8-9923-CE84633EC0AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0893A49F-4116-4271-8C65-A92AC1CE6B5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0893A49F-4116-4271-8C65-A92AC1CE6B5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0893A49F-4116-4271-8C65-A92AC1CE6B5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0893A49F-4116-4271-8C65-A92AC1CE6B5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
