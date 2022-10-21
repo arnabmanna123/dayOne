@@ -7,6 +7,55 @@ namespace StackQueue
     {
         static void Main(string[] args)
         {
+            BuildNormalQueue.Push(23);
+            BuildNormalQueue.Push(2);
+            BuildNormalQueue.Push(43);
+            BuildNormalQueue.Push(20);
+            BuildNormalQueue.Push(73);
+            BuildNormalQueue.Push(21);
+            BuildNormalQueue.Display();
+            BuildNormalQueue.Pop();
+            BuildNormalQueue.Display();
+            BuildNormalQueue.Peek();
+
+            BuildNormalQueue.Pop();
+            BuildNormalQueue.Display();
+            BuildNormalQueue.Peek();
+
+            BuildNormalQueue.Pop();
+            BuildNormalQueue.Display();
+            BuildNormalQueue.Peek();
+
+            BuildNormalQueue.Pop();
+            BuildNormalQueue.Display();
+            BuildNormalQueue.Peek();
+
+            BuildNormalQueue.Pop();
+            BuildNormalQueue.Display();
+            BuildNormalQueue.Peek();
+
+
+            PostfixExpressionsEvalution.Solution("264*8/+3-");
+
+            BuildDynamicStack.Push(2);
+            BuildDynamicStack.Push(2);
+            BuildDynamicStack.Push(2);
+            BuildDynamicStack.Push(2);
+            BuildDynamicStack.Push(2);
+            BuildDynamicStack.Push(2);
+            BuildDynamicStack.Push(2);
+            BuildDynamicStack.Display();
+
+            var val1 = BuildNormalStack.Count();
+            BuildNormalStack.Push(23);
+            BuildNormalStack.Push(2);
+            BuildNormalStack.Push(43);
+            BuildNormalStack.Push(20);
+            BuildNormalStack.Push(73);
+            BuildNormalStack.Push(21);
+            BuildNormalStack.Display();
+            BuildNormalStack.Pop();
+          var val22=  BuildNormalStack.Peek();
             var resultThreet = SmallestNumberFollowingPattern.Solution("iididdid");
             MergeOverlappingIntervals.Solution(new List<Pair> { new Pair(1, 8), new Pair(22, 28), new Pair(25, 27), new Pair(14, 19), new Pair(5, 12) });
             PostfixExpressionsEvalution.Solution("264*8/+3-");

@@ -10,7 +10,7 @@ namespace StackQueue
         {
             Stack<char> opr = new Stack<char>();
             Stack<int> oparend = new Stack<int>();
-            Stack<string> preFix = new Stack<string>();
+            Stack<string> postFix = new Stack<string>();
             Stack<string> infix = new Stack<string>();
             for (int i = 0; i < input.Length; i++)
             {
@@ -18,7 +18,7 @@ namespace StackQueue
                  if (char.IsDigit(input[i]))
                 {
                     oparend.Push(input[i] - '0');
-                    preFix.Push("" + input[i]);
+                    postFix.Push("" + input[i]);
                     infix.Push("" + input[i]);
 
 
@@ -29,7 +29,7 @@ namespace StackQueue
                     //{
                     opr.Push(input[i]);
                     var oprator = opr.Peek();
-                    var v2 = oparend.Pop();
+                    var v2 = oparend.Pop();//
                     var v1 = oparend.Pop();
                     int res = operation(oprator, v1, v2);
                     oparend.Push(res);
@@ -38,10 +38,10 @@ namespace StackQueue
                     string v1In = infix.Pop();
                     string InString = "(" + v1In + oprator + v2In + ")";
                     infix.Push(InString);
-                    string v2Pre = preFix.Pop();
-                    string v1Pre = preFix.Pop();
-                    string PreString = oprator + v1Pre + v2Pre;
-                    preFix.Push(PreString);
+                    string v2Post = postFix.Pop();
+                    string v1Post = postFix.Pop();
+                    string PostString =   v1Post + v2Post+input[i];
+                    postFix.Push(PostString);
 
                     //}
 
@@ -52,7 +52,7 @@ namespace StackQueue
 
             Console.WriteLine(oparend.Peek());
             Console.WriteLine(infix.Peek());
-            Console.WriteLine(preFix.Peek());
+            Console.WriteLine(postFix.Peek());
         }
         public static int operation(char oparator, int v1, int v2)
         {
